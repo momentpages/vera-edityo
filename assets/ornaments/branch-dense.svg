@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 320" aria-hidden="true">
+  <defs>
+    <linearGradient id="sageA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d4e0c2"/>
+      <stop offset="0.4" stop-color="#96ae7c"/>
+      <stop offset="1" stop-color="#5a6e45"/>
+    </linearGradient>
+    <linearGradient id="sageB" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3d3aa"/>
+      <stop offset="0.55" stop-color="#7e9664"/>
+      <stop offset="1" stop-color="#3f5234"/>
+    </linearGradient>
+    <linearGradient id="sageC" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#e4edd4"/>
+      <stop offset="0.45" stop-color="#a8bc88"/>
+      <stop offset="1" stop-color="#6b8054"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.35"/>
+    </filter>
+  </defs>
+  <g filter="url(#soft)">
+    <path d="M92 8 C 86 70, 98 150, 88 312" fill="none" stroke="#5d6d4c" stroke-width="2.1" stroke-linecap="round" opacity="0.55"/>
+    <path d="M92 52 C 62 78, 48 110, 40 148" fill="none" stroke="#5d6d4c" stroke-width="1.3" opacity="0.4"/>
+    <path d="M94 96 C 128 118, 148 150, 156 186" fill="none" stroke="#5d6d4c" stroke-width="1.3" opacity="0.4"/>
+    <path d="M90 168 C 58 190, 42 224, 38 258" fill="none" stroke="#5d6d4c" stroke-width="1.2" opacity="0.38"/>
+    <path d="M92 206 C 122 224, 142 252, 150 286" fill="none" stroke="#5d6d4c" stroke-width="1.2" opacity="0.38"/>
+
+    <path fill="url(#sageA)" d="M78 18 C 58 22, 46 38, 52 54 C 58 70, 78 76, 92 62 C 98 48, 94 28, 78 18 Z"/>
+    <path fill="url(#sageC)" d="M108 28 C 126 22, 144 34, 142 52 C 140 70, 120 78, 106 66 C 96 54, 96 36, 108 28 Z"/>
+    <path fill="url(#sageB)" d="M70 48 C 48 56, 38 76, 48 92 C 58 108, 80 110, 92 94 C 98 80, 88 58, 70 48 Z"/>
+    <path fill="url(#sageA)" d="M118 58 C 140 50, 160 64, 156 84 C 152 104, 128 110, 114 96 C 104 84, 104 66, 118 58 Z"/>
+    <path fill="url(#sageC)" d="M62 86 C 40 96, 32 118, 44 134 C 56 150, 80 148, 90 130 C 96 116, 82 94, 62 86 Z"/>
+    <path fill="url(#sageB)" d="M126 92 C 150 84, 170 100, 166 120 C 162 140, 136 146, 122 130 C 112 118, 112 100, 126 92 Z"/>
+    <path fill="url(#sageA)" d="M54 128 C 32 140, 26 164, 40 180 C 54 196, 78 190, 86 172 C 90 156, 74 136, 54 128 Z"/>
+    <path fill="url(#sageC)" d="M132 132 C 156 122, 178 138, 172 160 C 166 182, 140 186, 126 168 C 118 154, 118 140, 132 132 Z"/>
+    <path fill="url(#sageB)" d="M48 172 C 26 186, 22 212, 38 226 C 54 240, 78 232, 84 214 C 88 198, 68 180, 48 172 Z"/>
+    <path fill="url(#sageA)" d="M136 176 C 160 166, 182 184, 176 206 C 170 228, 144 230, 130 212 C 122 198, 122 184, 136 176 Z"/>
+    <path fill="url(#sageC)" d="M52 216 C 30 230, 28 256, 46 268 C 64 280, 86 270, 88 250 C 88 234, 70 222, 52 216 Z"/>
+    <path fill="url(#sageB)" d="M128 220 C 152 212, 172 230, 166 250 C 160 270, 136 274, 124 256 C 116 242, 116 226, 128 220 Z"/>
+    <path fill="url(#sageA)" d="M64 258 C 46 270, 46 292, 64 302 C 82 312, 100 300, 98 282 C 96 268, 80 260, 64 258 Z"/>
+    <path fill="url(#sageC)" d="M116 262 C 136 254, 154 270, 148 288 C 142 306, 120 308, 110 292 C 104 280, 106 268, 116 262 Z"/>
+
+    <g fill="none" stroke="#3d4c32" stroke-width="0.85" opacity="0.28">
+      <path d="M70 28 C 78 40, 84 50, 88 60"/>
+      <path d="M122 40 C 116 52, 110 62, 106 70"/>
+      <path d="M62 66 C 72 78, 80 88, 86 96"/>
+      <path d="M136 74 C 128 86, 120 96, 114 104"/>
+      <path d="M54 108 C 66 120, 76 130, 84 138"/>
+      <path d="M146 146 C 136 158, 126 166, 118 174"/>
+      <path d="M50 196 C 62 206, 72 214, 80 222"/>
+      <path d="M150 196 C 140 208, 130 216, 122 224"/>
+    </g>
+  </g>
+</svg>

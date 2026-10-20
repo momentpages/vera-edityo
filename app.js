@@ -41,11 +41,17 @@
   }
 
   function fillInvite() {
-    setText("invitee-name", inviteeName() || "Friend");
+    setText("invitee-name", inviteeName() || "Saudara/i");
     setText("invite-line", config.inviteLine);
+    setText("event-line", config.eventLine);
     setText("person-a", config.personA);
     setText("person-b", config.personB);
-    setText("date-line", config.dateLine);
+    setText("person-a-parents", config.personAParents);
+    setText("person-b-parents", config.personBParents);
+    setText("day-line", config.dayLine);
+    setText("date-day", config.dateDay);
+    setText("date-month", config.dateMonth);
+    setText("date-year", config.dateYear);
     setText("time-line", config.timeLine);
     setText("venue-name", config.venueName);
     setText("venue-address", config.venueAddress);
@@ -158,7 +164,6 @@
     if (openBtn) {
       openBtn.addEventListener("click", function () {
         markOpened();
-        music.play();
         go(1);
       });
     }
@@ -180,14 +185,15 @@
   function setupMusic() {
     var audio = document.getElementById("bg-music");
     var btn = document.getElementById("sound-toggle");
-    var muted = false;
+    var muted = true;
 
     if (!audio || !btn) {
       return { play: function () {} };
     }
 
     if (config.musicUrl) audio.src = config.musicUrl;
-    audio.muted = false;
+    audio.muted = true;
+    audio.pause();
 
     function syncBtn() {
       var silent = muted || audio.paused;

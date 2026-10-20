@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" aria-hidden="true">
+  <defs>
+    <linearGradient id="sA" x1="0.2" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#eef4de"/>
+      <stop offset="0.4" stop-color="#a8be86"/>
+      <stop offset="1" stop-color="#4d6340"/>
+    </linearGradient>
+    <linearGradient id="sB" x1="0.8" y1="0" x2="0.1" y2="1">
+      <stop offset="0" stop-color="#d2e0b6"/>
+      <stop offset="0.5" stop-color="#7d9662"/>
+      <stop offset="1" stop-color="#334428"/>
+    </linearGradient>
+    <radialGradient id="sG" cx="28%" cy="24%" r="60%">
+      <stop offset="0" stop-color="#f8fcec" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#f8fcec" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path d="M16 8 C 48 80, 86 160, 112 272" fill="none" stroke="#4a5840" stroke-width="1.8" opacity="0.36"/>
+  <path d="M28 40 C 8 78, 4 120, 18 156" fill="none" stroke="#4a5840" stroke-width="1.2" opacity="0.3"/>
+  <path d="M40 68 C 86 84, 128 96, 168 108" fill="none" stroke="#4a5840" stroke-width="1.2" opacity="0.3"/>
+  <path d="M62 148 C 102 168, 138 196, 164 232" fill="none" stroke="#4a5840" stroke-width="1.15" opacity="0.28"/>
+
+  <g transform="translate(22,16) rotate(-112)">
+    <path fill="url(#sB)" d="M0 0 C -12 9, -18 26, -14 46 C -10 62, -4 74, 0 84 C 5 74, 15 58, 18 40 C 21 22, 12 6, 0 0 Z"/>
+  </g>
+  <g transform="translate(58,12) rotate(22)">
+    <path fill="url(#sA)" d="M0 0 C -13 10, -20 28, -16 50 C -12 68, -4 80, 0 90 C 6 80, 17 62, 21 42 C 24 22, 13 6, 0 0 Z"/>
+    <path fill="url(#sG)" d="M0 0 C -13 10, -20 28, -16 50 C -12 68, -4 80, 0 90 C 6 80, 17 62, 21 42 C 24 22, 13 6, 0 0 Z"/>
+  </g>
+  <g transform="translate(14,64) rotate(-142)">
+    <path fill="url(#sA)" d="M0 0 C -11 8, -17 24, -14 42 C -11 58, -4 70, 0 78 C 5 70, 14 54, 17 36 C 20 18, 11 6, 0 0 Z"/>
+  </g>
+  <g transform="translate(92,52) rotate(48)">
+    <path fill="url(#sA)" d="M0 0 C -12 9, -18 26, -14 46 C -11 62, -4 74, 0 84 C 5 74, 16 58, 19 40 C 22 20, 12 6, 0 0 Z"/>
+    <path fill="url(#sG)" d="M0 0 C -12 9, -18 26, -14 46 C -11 62, -4 74, 0 84 C 5 74, 16 58, 19 40 C 22 20, 12 6, 0 0 Z"/>
+  </g>
+  <g transform="translate(140,78) rotate(64)">
+    <path fill="url(#sB)" d="M0 0 C -10 8, -16 22, -13 40 C -10 54, -4 66, 0 74 C 5 66, 14 50, 16 34 C 18 18, 10 6, 0 0 Z"/>
+  </g>
+  <g transform="translate(36,108) rotate(-78)">
+    <path fill="url(#sA)" d="M0 0 C -12 9, -18 26, -14 46 C -11 62, -4 74, 0 84 C 5 74, 15 58, 18 40 C 21 20, 12 6, 0 0 Z"/>
+  </g>
+  <g transform="translate(78,124) rotate(14)">
+    <path fill="url(#sA)" d="M0 0 C -11 8, -17 24, -14 44 C -11 58, -4 70, 0 80 C 5 70, 15 54, 18 38 C 20 18, 11 6, 0 0 Z"/>
+    <path fill="url(#sG)" d="M0 0 C -11 8, -17 24, -14 44 C -11 58, -4 70, 0 80 C 5 70, 15 54, 18 38 C 20 18, 11 6, 0 0 Z"/>
+  </g>
+  <g transform="translate(20,156) rotate(-128)">
+    <path fill="url(#sB)" d="M0 0 C -10 8, -16 22, -13 40 C -10 54, -3 66, 0 74 C 4 66, 13 50, 16 34 C 18 18, 10 6, 0 0 Z"/>
+  </g>
+  <g transform="translate(108,168) rotate(40)">
+    <path fill="url(#sA)" d="M0 0 C -11 8, -17 24, -14 42 C -10 58, -4 70, 0 78 C 5 70, 14 54, 17 36 C 19 18, 11 6, 0 0 Z"/>
+  </g>
+  <g transform="translate(152,196) rotate(58)">
+    <path fill="url(#sA)" d="M0 0 C -10 8, -15 22, -12 38 C -9 52, -3 62, 0 70 C 4 62, 13 48, 15 32 C 17 16, 10 5, 0 0 Z"/>
+  </g>
+  <g transform="translate(54,196) rotate(-32)">
+    <path fill="url(#sA)" d="M0 0 C -10 8, -16 22, -13 40 C -10 54, -3 64, 0 72 C 4 64, 13 48, 16 34 C 18 16, 10 5, 0 0 Z"/>
+  </g>
+  <g transform="translate(86,228) rotate(8)">
+    <path fill="url(#sB)" d="M0 0 C -9 7, -14 20, -12 36 C -9 48, -3 58, 0 64 C 4 58, 12 44, 14 30 C 16 16, 9 5, 0 0 Z"/>
+  </g>
+  <g transform="translate(40,236) rotate(-108)">
+    <path fill="url(#sA)" d="M0 0 C -9 7, -14 20, -12 34 C -9 46, -3 56, 0 62 C 4 56, 12 42, 14 28 C 16 14, 9 5, 0 0 Z"/>
+  </g>
+</svg>

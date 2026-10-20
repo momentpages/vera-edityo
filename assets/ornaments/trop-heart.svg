@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 310" aria-hidden="true">
+  <defs>
+    <linearGradient id="hBody" x1="20" y1="8" x2="250" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d8a3a"/>
+      <stop offset="0.35" stop-color="#2a5c30"/>
+      <stop offset="0.7" stop-color="#163424"/>
+      <stop offset="1" stop-color="#0c1c14"/>
+    </linearGradient>
+    <linearGradient id="hRib" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a1810" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#0a1810" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0a1810" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="hShine" cx="38%" cy="26%" r="46%">
+      <stop offset="0" stop-color="#b6d66a" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#b6d66a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="hSoft" x="-16%" y="-16%" width="132%" height="132%">
+      <feDropShadow dx="5" dy="9" stdDeviation="6" flood-color="#101810" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <g filter="url(#hSoft)">
+    <path fill="url(#hBody)" d="
+      M130 18
+      C 86 22, 36 62, 24 118
+      C 12 176, 36 230, 82 268
+      C 112 292, 148 298, 176 276
+      C 214 246, 246 196, 248 140
+      C 250 86, 216 28, 164 16
+      C 152 12, 140 14, 130 18 Z"/>
+    <path fill="url(#hShine)" d="M130 18 C 96 24, 58 52, 40 90 C 78 62, 122 34, 168 30 C 158 20, 144 16, 130 18 Z"/>
+  </g>
+  <path d="M130 22 C 136 96, 142 180, 148 286" fill="none" stroke="#08140e" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+  <path d="M134 26 C 138 98, 144 180, 148 274" fill="none" stroke="#d8ee9a" stroke-width="1.6" opacity="0.28"/>
+    <path d="M128 73 C 61 91, 53 109, 57 125" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.28"/>
+    <path d="M132 73 C 199 91, 207 109, 203 125" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.26"/>
+    <path d="M128 73 C 61 91, 53 109, 57 125" fill="none" stroke="#d4ec9a" stroke-width="0.7" opacity="0.14"/>
+    <path d="M128 97 C 54 115, 46 133, 50 149" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.28"/>
+    <path d="M132 97 C 206 115, 214 133, 210 149" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.26"/>
+    <path d="M128 97 C 54 115, 46 133, 50 149" fill="none" stroke="#d4ec9a" stroke-width="0.7" opacity="0.14"/>
+    <path d="M128 121 C 47 139, 39 157, 43 173" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.28"/>
+    <path d="M132 121 C 213 139, 221 157, 217 173" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.26"/>
+    <path d="M128 121 C 47 139, 39 157, 43 173" fill="none" stroke="#d4ec9a" stroke-width="0.7" opacity="0.14"/>
+    <path d="M128 145 C 40 163, 32 181, 36 197" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.28"/>
+    <path d="M132 145 C 220 163, 228 181, 224 197" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.26"/>
+    <path d="M128 145 C 40 163, 32 181, 36 197" fill="none" stroke="#d4ec9a" stroke-width="0.7" opacity="0.14"/>
+    <path d="M128 169 C 47 187, 39 205, 43 221" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.28"/>
+    <path d="M132 169 C 213 187, 221 205, 217 221" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.26"/>
+    <path d="M128 169 C 47 187, 39 205, 43 221" fill="none" stroke="#d4ec9a" stroke-width="0.7" opacity="0.14"/>
+    <path d="M128 193 C 54 211, 46 229, 50 245" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.28"/>
+    <path d="M132 193 C 206 211, 214 229, 210 245" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.26"/>
+    <path d="M128 193 C 54 211, 46 229, 50 245" fill="none" stroke="#d4ec9a" stroke-width="0.7" opacity="0.14"/>
+    <path d="M128 217 C 61 235, 53 253, 57 269" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.28"/>
+    <path d="M132 217 C 199 235, 207 253, 203 269" fill="none" stroke="#0a1810" stroke-width="2.2" opacity="0.26"/>
+    <path d="M128 217 C 61 235, 53 253, 57 269" fill="none" stroke="#d4ec9a" stroke-width="0.7" opacity="0.14"/>
+</svg>

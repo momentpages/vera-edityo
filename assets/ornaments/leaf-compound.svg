@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 200" aria-hidden="true">
+  <path d="M45 192 V 18" fill="none" stroke="#1c4d58" stroke-width="3.2" stroke-linecap="round"/>
+  <g fill="#8eca5a">
+    <ellipse cx="45" cy="22" rx="9" ry="16"/>
+    <ellipse cx="24" cy="48" rx="11" ry="15"/><ellipse cx="66" cy="48" rx="11" ry="15"/>
+    <ellipse cx="22" cy="80" rx="12" ry="16"/><ellipse cx="68" cy="80" rx="12" ry="16"/>
+    <ellipse cx="21" cy="114" rx="12" ry="16"/><ellipse cx="69" cy="114" rx="12" ry="16"/>
+    <ellipse cx="23" cy="148" rx="11" ry="15"/><ellipse cx="67" cy="148" rx="11" ry="15"/>
+  </g>
+  <g fill="#4e8a3c">
+    <ellipse cx="49" cy="22" rx="5" ry="14"/>
+    <ellipse cx="28" cy="48" rx="5.5" ry="13"/><ellipse cx="70" cy="48" rx="5.5" ry="13"/>
+    <ellipse cx="26" cy="80" rx="6" ry="14"/><ellipse cx="72" cy="80" rx="6" ry="14"/>
+    <ellipse cx="25" cy="114" rx="6" ry="14"/><ellipse cx="73" cy="114" rx="6" ry="14"/>
+    <ellipse cx="27" cy="148" rx="5.5" ry="13"/><ellipse cx="71" cy="148" rx="5.5" ry="13"/>
+  </g>
+</svg>
