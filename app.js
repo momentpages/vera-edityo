@@ -192,6 +192,7 @@
     }
 
     if (config.musicUrl) audio.src = config.musicUrl;
+    audio.volume = 0.4;
     audio.muted = true;
     audio.pause();
 
