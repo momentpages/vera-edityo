@@ -165,10 +165,14 @@
       openBtn.addEventListener("click", function () {
         markOpened();
         go(1);
+        music.play();
       });
     }
 
-    if (opened) sync();
+    if (opened) {
+      sync();
+      music.play();
+    }
 
     window.addEventListener("keydown", function (event) {
       if (event.target.closest("a, button, input, textarea") && event.key === " ") return;
