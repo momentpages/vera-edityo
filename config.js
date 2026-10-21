@@ -1,4 +1,10 @@
 window.INVITATION = {
+  /** Public site URL (no trailing slash). Used for share previews — keep in sync with index.html meta tags. */
+  siteUrl: "https://momentpages.github.io/vera-edityo",
+  shareTitle: "Vera & Edityo — Undangan Akad Nikah",
+  shareDescription:
+    "Akad Nikah dan Syukuran, 31 Oktober 2026. Restoran Sugeban, Pontianak. Buka undangan digital kami.",
+  shareImagePath: "/assets/design/og-image.png",
   personA: "Vera",
   personB: "Edityo",
   personAParents: "Anak ke-2 dari alm. Saroni\ndan Nasrawaty",
